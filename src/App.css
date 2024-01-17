@@ -56,6 +56,7 @@
 
 .characters-list {
   width: 40%;
+
 }
 
 .box h2 {
@@ -184,6 +185,7 @@
   background-color: var(--slate-800);
   border-radius: 1rem;
   padding: 1rem;
+
 }
 
 .character-episodes .title {
@@ -203,6 +205,10 @@
 .character-episodes h2 {
   color: var(--slate-400);
   margin-bottom: 0.6rem;
+}
+.character-episodes ul {
+  max-height: 250px;
+  overflow:auto;
 }
 
 .character-episodes li {
